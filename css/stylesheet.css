@@ -106,7 +106,7 @@ body {
   width: 100%;
   height: 100%;
   background:
-    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     url("../images/ucb.jpg");
   background-size: cover;
   background-position: center bottom;
@@ -135,6 +135,39 @@ body {
   top: 100px;
   z-index: 10;
   letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  position: relative;
+  text-align: left;
+  font-size: 30px;
+  color: #FDB515;
+  top: 0px;
+  z-index: 10;
+  letter-spacing: 2px;
+}
+
+.section-br {
+  margin-bottom: 20px;
+  border-bottom: #FDB515 2px solid;
+  position: relative;
+  top: 0px;
+}
+
+.section-text {
+  position: relative;
+  max-width: 70%;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 0px;
+  letter-spacing: 1px;
+  text-align: left;
+  z-index: 10;
+  font-weight: lighter;
+  line-height: 20px;
+  padding-bottom: 30px;
   margin-bottom: 30px;
 }
 
